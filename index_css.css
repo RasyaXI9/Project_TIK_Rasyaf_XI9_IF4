@@ -1,0 +1,77 @@
+body{
+    background-color:hsl(39, 87%, 48%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 1.0em;
+}
+
+nav{
+    border: 1px solid rgb(96, 96, 96);
+    background-color: rgb(171, 171, 171);
+    padding: 1em;
+    height:70px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+    float: right;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 0.5em;
+}
+
+
+li:hover{
+    background-color: rgb(92, 89, 89);
+    color: coral;
+}
+
+section{
+    margin: 10px;
+
+}
+
+article{
+    background-color: rgb(13, 107, 222);
+    padding: 1em;
+    margin: 10px;
+    height: 200px;
+}
+
+.berita1{
+    display: block;
+
+}
+.berita2{
+    display: block;
+    padding: 0;
+}
+
+.hovergambar{
+    float: left;
+    opacity: 25%;
+}
+
+.hovergambar:hover{
+    opacity: 100%;
+}
+
+
+
+
+
+    
+
+
+
